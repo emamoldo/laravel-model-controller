@@ -10,7 +10,7 @@
             @forelse($movies as $movie)
                 <div class="col">
                     <div class="card py-4 my-4">
-                        <div class="card-body">
+                        <div class="cards card-body">
                             <div class="col">
                                 <strong>Title:
                                     <h6>{{$movie->title}}</h6>
@@ -19,7 +19,6 @@
                                 <strong> Original Title:
                                     <h5>{{$movie->original_title}}</h5>
                                 </strong>
-
 
                                 <strong> Nationality:
                                     <p>{{$movie->nationality}}</p>
